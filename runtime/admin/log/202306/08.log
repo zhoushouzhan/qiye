@@ -1,0 +1,4 @@
+[2023-06-08T08:49:54+08:00][error] [0]Cannot instantiate trait mod\Category
+[2023-06-08T08:53:22+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-08T08:55:12+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-08T11:49:48+08:00][error] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'create_time' at row 1

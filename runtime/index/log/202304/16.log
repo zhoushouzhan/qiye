@@ -1,0 +1,15 @@
+[2023-04-16T16:49:57+08:00][sql] CONNECT:[ UseTime:0.023239s ] mysql:host=127.0.0.1;port=3306;dbname=ypcms2;charset=utf8
+[2023-04-16T16:49:57+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000713s ]
+[2023-04-16T16:49:57+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000375s ]
+[2023-04-16T16:49:57+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000668s ]
+[2023-04-16T16:49:57+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000386s ]
+[2023-04-16T16:50:22+08:00][sql] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;port=3306;dbname=ypcms2;charset=utf8
+[2023-04-16T16:50:22+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000852s ]
+[2023-04-16T16:50:22+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000358s ]
+[2023-04-16T16:50:22+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000653s ]
+[2023-04-16T16:50:22+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000348s ]
+[2023-04-16T16:50:24+08:00][sql] CONNECT:[ UseTime:0.024008s ] mysql:host=127.0.0.1;port=3306;dbname=ypcms2;charset=utf8
+[2023-04-16T16:50:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000669s ]
+[2023-04-16T16:50:24+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000300s ]
+[2023-04-16T16:50:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000525s ]
+[2023-04-16T16:50:24+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000381s ]

@@ -1,0 +1,3 @@
+[2023-08-18T10:51:19+08:00][error] [10500]method not exist:think\db\Query->arealink
+[2023-08-18T10:51:48+08:00][error] [10500]method not exist:think\db\Query->arealink
+[2023-08-18T10:54:08+08:00][error] [10500]method not exist:think\db\Query->arealink

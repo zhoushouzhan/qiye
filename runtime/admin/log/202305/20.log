@@ -1,0 +1,2 @@
+[2023-05-20T19:14:00+08:00][error] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'create_time' at row 1
+[2023-05-20T19:14:15+08:00][error] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'create_time' at row 1

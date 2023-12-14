@@ -1,0 +1,130 @@
+[2023-08-19T10:48:21+08:00][error] [8]未定义变量: formitem
+[2023-08-19T10:49:14+08:00][error] [8]未定义变量: formitem
+[2023-08-19T10:58:25+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T10:59:28+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:01:07+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:01:34+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:02:14+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:03:49+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:04:07+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:04:19+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:04:36+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:04:49+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:05:28+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:06:09+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:06:41+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pid' at row 8
+[2023-08-19T11:06:59+08:00][error] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'pid' at row 8
+[2023-08-19T11:07:18+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1067 Invalid default value for 'pid'
+[2023-08-19T11:26:40+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:26:51+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:27:43+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:31:49+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:32:05+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:32:15+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:32:28+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:32:41+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-08-19T11:33:17+08:00][sql] CONNECT:[ UseTime:0.002486s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:33:17+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.001233s ]
+[2023-08-19T11:33:17+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[2023-08-19T11:33:17+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000818s ]
+[2023-08-19T11:33:17+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000891s ]
+[2023-08-19T11:33:17+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.001550s ]
+[2023-08-19T11:33:17+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.001031s ]
+[2023-08-19T11:33:17+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.001754s ]
+[2023-08-19T11:33:17+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.001431s ]
+[2023-08-19T11:33:17+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000797s ]
+[2023-08-19T11:33:18+08:00][sql] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.000935s ]
+[2023-08-19T11:33:18+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000739s ]
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000598s ]
+[2023-08-19T11:33:18+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.000338s ]
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.000539s ]
+[2023-08-19T11:33:18+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.000308s ]
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.001573s ]
+[2023-08-19T11:33:18+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000554s ]
+[2023-08-19T11:33:18+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000769s ]
+[2023-08-19T11:33:18+08:00][sql] SELECT * FROM `yp_category` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000334s ]
+[2023-08-19T11:33:23+08:00][sql] CONNECT:[ UseTime:0.010495s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.000755s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000596s ]
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000568s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.000393s ]
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.000607s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.000365s ]
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000570s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000407s ]
+[2023-08-19T11:33:23+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000673s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT * FROM `yp_category` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000373s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7,8,9) [ RunTime:0.000352s ]
+[2023-08-19T11:33:23+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000346s ]
+[2023-08-19T11:33:24+08:00][sql] CONNECT:[ UseTime:0.001124s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.000629s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000705s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000595s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.000394s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.001000s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.000390s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000649s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000355s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,alias as title FROM `yp_mod` WHERE  `type` = 'classic' ORDER BY `sort` ASC [ RunTime:0.000601s ]
+[2023-08-19T11:33:24+08:00][sql] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.000696s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000764s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000723s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.000410s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.000986s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.000441s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.001307s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000401s ]
+[2023-08-19T11:33:24+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000817s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT * FROM `yp_category` WHERE  ( FIND_IN_SET(0,path) ) [ RunTime:0.000663s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1) [ RunTime:0.000344s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3) [ RunTime:0.000345s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1,6) [ RunTime:0.000287s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7) [ RunTime:0.000333s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7,8) [ RunTime:0.000329s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7,8,9) [ RunTime:0.000377s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1,11) [ RunTime:0.000582s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,13) [ RunTime:0.000691s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT * FROM `yp_category` WHERE  ( FIND_IN_SET(0,path) ) [ RunTime:0.000645s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1) [ RunTime:0.000773s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3) [ RunTime:0.000811s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1,6) [ RunTime:0.000448s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7) [ RunTime:0.000639s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7,8) [ RunTime:0.001123s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,3,7,8,9) [ RunTime:0.000488s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,1,11) [ RunTime:0.000421s ]
+[2023-08-19T11:33:24+08:00][sql] SELECT `id`,`title` FROM `yp_category` WHERE  `id` IN (0,13) [ RunTime:0.000568s ]
+[2023-08-19T11:34:14+08:00][sql] CONNECT:[ UseTime:0.023429s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_admin` [ RunTime:0.000705s ]
+[2023-08-19T11:34:14+08:00][sql] SELECT `id`,`username`,`status`,`create_time`,`update_time`,`truename`,`mobile`,`last_ip`,`myrules` FROM `yp_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_roles` [ RunTime:0.000664s ]
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_access` [ RunTime:0.000599s ]
+[2023-08-19T11:34:14+08:00][sql] SELECT `yp_roles`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`admin_id` AS `pivot__admin_id`,`pivot`.`roles_id` AS `pivot__roles_id` FROM `yp_roles` INNER JOIN `yp_access` `pivot` ON `pivot`.`roles_id`=`yp_roles`.`id` WHERE  `pivot`.`admin_id` = '1' [ RunTime:0.000436s ]
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_rule` [ RunTime:0.000647s ]
+[2023-08-19T11:34:14+08:00][sql] SELECT `id`,`path`,`type`,`status`,`pid`,`sort`,`mod_id`,`title`,`icon` FROM `yp_rule` ORDER BY `sort` ASC [ RunTime:0.000400s ]
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000666s ]
+[2023-08-19T11:34:14+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` IN (1,10,0,3,2) [ RunTime:0.000388s ]
+[2023-08-19T11:34:14+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000745s ]
+[2023-08-19T11:34:14+08:00][sql] SELECT * FROM `yp_category` WHERE  ( FIND_IN_SET(0,path) ) [ RunTime:0.000410s ]
+[2023-08-19T11:34:14+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given[D:\qiye\web\app\common\model\Category.php:60]
+[2023-08-19T20:38:54+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:38:55+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:39:17+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:39:17+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:47:26+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:47:39+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:47:55+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:06+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:10+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:15+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:46+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:49+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:48:57+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:49:02+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:49:10+08:00][error] [8]Trying to access array offset on value of type null
+[2023-08-19T20:49:14+08:00][error] [8]Trying to access array offset on value of type null

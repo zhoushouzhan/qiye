@@ -1,0 +1,2 @@
+[2023-05-04T13:11:24+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'false' for column 'nav' at row 1
+[2023-05-04T19:07:54+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'mclass_id' doesn't have a default value

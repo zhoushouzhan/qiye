@@ -1,0 +1,2 @@
+[2023-05-05T09:25:04+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'false' for column 'nav' at row 1
+[2023-05-05T09:40:11+08:00][error] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'false' for column 'nav' at row 1

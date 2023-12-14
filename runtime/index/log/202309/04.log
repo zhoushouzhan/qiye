@@ -1,0 +1,45 @@
+[2023-09-04T11:20:45+08:00][sql] CONNECT:[ UseTime:0.001812s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:20:45+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000839s ]
+[2023-09-04T11:20:45+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000291s ]
+[2023-09-04T11:20:45+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000800s ]
+[2023-09-04T11:20:45+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000454s ]
+[2023-09-04T11:21:02+08:00][sql] CONNECT:[ UseTime:0.023680s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:21:02+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000711s ]
+[2023-09-04T11:21:02+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000373s ]
+[2023-09-04T11:21:02+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000613s ]
+[2023-09-04T11:21:02+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000395s ]
+[2023-09-04T11:21:56+08:00][sql] CONNECT:[ UseTime:0.024844s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:21:56+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000721s ]
+[2023-09-04T11:21:56+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000364s ]
+[2023-09-04T11:21:56+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000615s ]
+[2023-09-04T11:21:56+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000428s ]
+[2023-09-04T11:26:00+08:00][sql] CONNECT:[ UseTime:0.021702s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:26:00+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000789s ]
+[2023-09-04T11:26:00+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000311s ]
+[2023-09-04T11:26:00+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000545s ]
+[2023-09-04T11:26:00+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000345s ]
+[2023-09-04T11:30:11+08:00][sql] CONNECT:[ UseTime:0.021131s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:30:11+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000891s ]
+[2023-09-04T11:30:11+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000383s ]
+[2023-09-04T11:30:11+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000622s ]
+[2023-09-04T11:30:11+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000400s ]
+[2023-09-04T11:30:35+08:00][sql] CONNECT:[ UseTime:0.025221s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:30:35+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000784s ]
+[2023-09-04T11:30:35+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000382s ]
+[2023-09-04T11:30:35+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000734s ]
+[2023-09-04T11:30:35+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000489s ]
+[2023-09-04T11:31:04+08:00][sql] CONNECT:[ UseTime:0.011981s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:31:04+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000679s ]
+[2023-09-04T11:31:04+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000374s ]
+[2023-09-04T11:31:04+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000624s ]
+[2023-09-04T11:31:04+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000346s ]
+[2023-09-04T11:32:40+08:00][sql] CONNECT:[ UseTime:0.017168s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:32:40+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000790s ]
+[2023-09-04T11:32:40+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000338s ]
+[2023-09-04T11:32:40+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000531s ]
+[2023-09-04T11:32:40+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000293s ]
+[2023-09-04T11:33:13+08:00][sql] CONNECT:[ UseTime:0.011145s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-09-04T11:33:13+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000762s ]
+[2023-09-04T11:33:13+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000373s ]
+[2023-09-04T11:33:13+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000631s ]
+[2023-09-04T11:33:13+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000395s ]

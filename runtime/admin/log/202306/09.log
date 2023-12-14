@@ -1,0 +1,12 @@
+[2023-06-09T07:13:13+08:00][error] [10500]method not exist:think\db\Query->area
+[2023-06-09T07:13:59+08:00][error] [10500]method not exist:think\db\Query->area
+[2023-06-09T07:26:51+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-09T07:27:03+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-09T07:27:38+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-09T07:27:46+08:00][error] [2]array_unshift() expects parameter 1 to be array, string given
+[2023-06-09T07:32:35+08:00][error] [8]Undefined property: think\model\relation\BelongsTo::$path
+[2023-06-09T07:32:54+08:00][error] [0]Cannot use object of type think\model\relation\BelongsTo as array
+[2023-06-09T08:23:42+08:00][error] [10500]method not exist:think\db\Query->appends
+[2023-06-09T08:24:20+08:00][error] [8]Trying to get property 'arealink' of non-object
+[2023-06-09T08:24:51+08:00][error] [8]未定义数组索引: arealink
+[2023-06-09T08:27:19+08:00][error] [0]语法错误: unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)

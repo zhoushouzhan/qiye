@@ -1,0 +1,23 @@
+[2023-08-24T08:07:51+08:00][sql] CONNECT:[ UseTime:0.016878s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-24T08:07:51+08:00][sql] SHOW FULL COLUMNS FROM `yp_sitepro` [ RunTime:0.001794s ]
+[2023-08-24T08:07:51+08:00][sql] SELECT * FROM `yp_sitepro` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[2023-08-24T08:07:51+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000663s ]
+[2023-08-24T08:07:51+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000355s ]
+[2023-08-24T08:07:51+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000683s ]
+[2023-08-24T08:07:51+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000429s ]
+[2023-08-24T08:07:53+08:00][sql] CONNECT:[ UseTime:0.022720s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-24T08:07:53+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000700s ]
+[2023-08-24T08:07:53+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000376s ]
+[2023-08-24T08:07:53+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000603s ]
+[2023-08-24T08:07:53+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000488s ]
+[2023-08-24T08:07:53+08:00][sql] SELECT * FROM `yp_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000440s ]
+[2023-08-24T08:07:53+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000362s ]
+[2023-08-24T08:07:53+08:00][sql] SHOW FULL COLUMNS FROM `yp_article` [ RunTime:0.001489s ]
+[2023-08-24T08:07:53+08:00][sql] SELECT * FROM `yp_article` WHERE `yp_article`.`delete_time` = '0' [ RunTime:0.000391s ]
+[2023-08-24T08:07:55+08:00][sql] CONNECT:[ UseTime:0.018339s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-08-24T08:07:55+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.000731s ]
+[2023-08-24T08:07:55+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000372s ]
+[2023-08-24T08:07:55+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.000627s ]
+[2023-08-24T08:07:55+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000383s ]
+[2023-08-24T08:07:55+08:00][sql] SHOW FULL COLUMNS FROM `yp_article` [ RunTime:0.000667s ]
+[2023-08-24T08:07:55+08:00][sql] SELECT * FROM `yp_article` WHERE (  `id` = 58 ) AND `yp_article`.`delete_time` = '0' LIMIT 1 [ RunTime:0.000381s ]

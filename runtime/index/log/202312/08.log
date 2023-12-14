@@ -1,0 +1,10 @@
+[2023-12-08T20:17:32+08:00][sql] CONNECT:[ UseTime:0.041697s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-12-08T20:17:32+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.028596s ]
+[2023-12-08T20:17:32+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.002619s ]
+[2023-12-08T20:17:32+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.002933s ]
+[2023-12-08T20:17:32+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.001046s ]
+[2023-12-08T20:17:36+08:00][sql] CONNECT:[ UseTime:0.001946s ] mysql:host=127.0.0.1;port=3306;dbname=qiye;charset=utf8
+[2023-12-08T20:17:36+08:00][sql] SHOW FULL COLUMNS FROM `yp_category` [ RunTime:0.003807s ]
+[2023-12-08T20:17:36+08:00][sql] SELECT * FROM `yp_category` [ RunTime:0.000629s ]
+[2023-12-08T20:17:36+08:00][sql] SHOW FULL COLUMNS FROM `yp_mod` [ RunTime:0.001822s ]
+[2023-12-08T20:17:36+08:00][sql] SELECT * FROM `yp_mod` WHERE  `id` = 2 [ RunTime:0.000500s ]

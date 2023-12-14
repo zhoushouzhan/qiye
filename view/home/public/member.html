@@ -1,0 +1,18 @@
+{if $member}
+<div>
+  <span>你好，{$member.username}</span>
+  <a href="{:url('index/member/index')}">用户中心</a>
+  <a
+    href="{:url('index/member/loginout')}"
+    onclick="return confirm('确定要退出吗？')"
+    >退出</a
+  >
+</div>
+
+{else}
+<div>
+  <a href="{:url('index/member/login')}">登录</a>
+  <a href="{:url('index/member/register')}">注册</a>
+</div>
+
+{/if}

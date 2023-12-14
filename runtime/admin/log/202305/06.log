@@ -1,0 +1,1 @@
+[2023-05-06T09:51:07+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'category_id' doesn't have a default value
